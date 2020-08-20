@@ -1,0 +1,644 @@
+@media screen and (max-width: 1199px){
+    .review-box{
+        padding-top: 40px 20px 50px;
+    }
+    .reviews-box{
+        padding: 0 2%;
+    }
+    .plans-inner{
+        padding: 45px 18px 70px;
+    }
+    /******** doman *************/
+    .image-box{
+        height: 446px;
+    }
+    .hemsida-box{
+        padding: 0 5%;
+    }
+    /******* SSL PAGE ******/
+    .ssl-box p br{
+        display: none;
+    }
+    .text-box-section h2 span br{
+        display: none;
+    }
+    /******* sok job page ********/
+    .job-small-box{
+        padding: 55px 55px;
+    }
+    .small-text-box, .job-btn-box{
+        padding:0 15px ;
+    }
+    .nyhetsbrev-new-box .sitebuilder-image img{
+        width: 100%;
+    }
+    /**********************/
+    .team-inner-box figure img{
+        width: 90%;
+    }
+    .team-inner-box p br{
+        display: none;
+    }
+    .microsoft-list-box ul li{
+        margin-right:3%;
+    }
+    .microsoft-list-box ul li br{
+        display: none;
+    }
+    .microsoft-video-image img{
+        width: 100%;
+    }
+    .digitala-tag{
+        right: 80px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .top-banner-text {
+        text-align: center;
+    }
+
+    .outerbox {
+        padding-top: 120px;
+    }
+
+    .top-banner-text span {
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-search .domain-field {
+        width: 73% !important;
+    }
+
+    .domain-submit {
+        width: 27%;
+    }
+    .plans-outer {
+        width: 80%;
+        margin: 0 auto 25px;
+        float: none;
+        display: inline-block;
+    }
+
+    .review-box {
+        margin: 0 1% 20px;
+        width: 46%;
+        vertical-align: top;
+        display: inline-block;
+        padding: 30px 25px;
+    }
+
+    .review-box-holder {
+        display: inline-block;
+    }
+
+    .review-box p {
+        min-height: inherit;
+        margin: 0 0 20px;
+    }
+
+    .review-box:last-child {
+        margin: 0 1% 20px !important;
+    }
+
+    .bottom-text {
+        margin-top: 40px;
+    }
+
+    .content-box, .content-box2 {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .domain-small-box {
+        margin: 0 0 20px;
+    }
+
+    .domain-section .domain-box {
+        margin-top: 20px;
+    }
+
+    .small-box {
+        margin: 0 0 20px;
+    }
+
+    .spacer {
+        display: none;
+    }
+
+    .footer-green-box {
+        padding: 25px 2% !important;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .lesmer-btn {
+        margin-top: 0px;
+    }
+
+    .content-box h2 {
+        margin: 0 0 40px;
+    }
+
+    .domain-ext {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    /************ webbhottel ************/
+    .sub-outerbox {
+        padding-top: 120px;
+    }
+
+    .subbanner {
+        padding: 50px 2%;
+        height: auto;
+    }
+
+    .image-box img {
+        float: none;
+        width: 50%;
+    }
+
+    .image-box {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .text-box {
+        text-align: center;
+        padding-bottom: 0 !important;
+    }
+
+    .fler-btn {
+        margin-top: 20px;
+    }
+    .hemsida-box h2{
+        margin-bottom: 50px;
+    }
+    .text-section{
+        text-align: center;
+    }
+    .spacer130{
+        height: 70px;
+    }
+    .affiliate-box h2 span br{
+        display: none;
+    }
+    .provision-inner-box{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .provision-inner-box span{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .provision-inner-box small{
+        font-size: 16px;
+    }
+    .range-slider__value{
+        right: 0px;
+        top: -40px;
+    }
+    .hemsida-box2{
+        padding: 0 3%;
+    }
+    .hemsida-box2 .small-box{
+        min-height: 275px;
+    }
+    .colocation-box{
+        display: inline-block;
+    }
+    .colocation-box .team-box{
+        height: 300px;
+        background-size: contain;
+    }
+    .colocation-box > div{
+        width: 100%;
+        text-align: center;
+    }
+    .text-box-section{
+        padding: 50px 0 0;
+    }
+    /********* dedikared page **********/
+    .text-box-section ul li{
+        padding-left: 0;
+        background: none;
+    }
+    .colocation-text-box p br{
+        display: none;
+    }
+    .dedicated-box-holder{
+        display: inline-block;
+    }
+    .dedicated-inner-box{
+        margin: 0 0 20px;
+    }
+    .form-outer:last-child{
+        margin: 23px 0 0;
+    }
+    /********* sok page *******/
+    .small-text-box, .job-btn-box{
+        text-align: center;
+    }
+    .job-btn-box{
+        padding-top: 25px;
+    }
+    .job-small-box{
+        padding: 30px 2%;
+    }
+    /*****************************/
+    .team-inner-box{
+        width: 100%;
+        margin: 0 0 40px;
+    }
+    .microsoft-new-box{
+        margin: 0;
+    }
+    .team-inner-box figure{
+        margin: 0 0 40px;
+    }
+    .team-inner-box figure img{
+        width: 100%;
+    }
+    .microsoft-list-box h2{
+        margin: 0 0 70px;
+    }
+    .microsoft-list-box ul{
+        margin: 0 0 14px;
+    }
+    .microsoft-list-box ul li{
+        margin-bottom: 14px;
+        background-position: left 1px;
+        width: 90%;
+        padding-left: 10%;
+        margin-right: 0;
+    }
+    .microsoft-news-box .gradiant-text{
+        height: auto;
+    }
+    .microsoft-video-section{
+        padding: 50px 2% 70px !important;
+    }
+    .microsoft-video-section .flock-box h2{
+        margin: 0 0 35px
+    }
+    .microsoft-news-box h2{
+        margin:0 0 20px;
+    }
+    .microsoft-news-box{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .team-inner-box{
+        padding: 0 2%;
+    }
+    /****** MEDIA PAGE *********/
+    .media-plans-holder{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        padding: 0 2%;
+    }
+    .media-plan{
+        display: inline-block;
+        width: 100%;
+        border: 2px solid #ededed !important;
+        margin: 0 0 30px;
+    }
+    .media-plan:last-child{
+        margin: 0;
+    }
+    .media-price-box{
+        margin: 0 2%;
+        width: 96%;
+    }
+    .media-plan ul li.empty{
+        display: none;
+    }
+    .flock-inner-box .flock-responsive-image iframe{
+        height: 350px !important;
+        width: 100%;
+    }
+    .news-content-box .flock-box{
+        margin: 0 0 50px !important;
+    }
+    .news-content-box .flock-box h2{
+        margin: 0 0 70px;
+    }
+    .flock-text-box, .flock-image{
+        width: 100%;
+        text-align: center;
+        padding: 0 !important;
+    }
+    .flock-text-box{
+        margin-top: 30px !important;
+    }
+    .flock-inner-box2, .flock-margin-top, .flock-box{
+        margin-top: 50px !important;
+    }
+    .flock-inner-box{
+        margin-top: 0 !important;
+    }
+    .magento-logos{
+        margin:50px 0;
+    }
+    .flock-content-box{
+        padding: 50px 0 !important;
+    }
+    .flock-inner-box figure{
+        margin-top: 20px !important;
+    }
+    .flock-box h2{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .flock-text-box h3{
+        margin: 0 0 20px;
+        font-size: 22px;
+    }
+    .flock-inner-box2, .flock-margin-top, .flock-box{
+        width: 100% !important;
+        padding: 0 !important;
+    }
+    .flock-inner-box{
+        width: 96% !important;
+        padding: 0 2% !important;
+    }
+    .flock-box h2 br{
+        display: none;
+    }
+    .flock-banner-box{
+        padding: 40px 2%;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .flock-banner-box h1{
+        font-size: 30px;
+        line-height: 32px;
+        margin: 0 0 10px;
+    }
+    .flock-banner-box p{
+        margin: 0 0 20px;
+    }
+    .digitala-tag{
+        right: 0px;
+    }
+}
+@media (max-width: 800px) {
+    .stacktable.large-only { display: none; }
+    .stacktable.small-only { display: table; }
+    .jamfor-table tbody tr th.st-head-row{
+        background: #00b67a;
+        color: #fff;
+    }
+    .colocation-box .team-box{
+        height: 200px;
+    }
+    .ssl-smallbox{
+        padding: 0 2%;
+    }
+    .ssl-smallbox:before{
+        display: none;
+    }
+}
+@media screen and (max-width: 767px){
+    .banner {
+        height: auto;
+        font-size: 18px;
+        line-height: 24px;
+        padding: 40px 2% 65px;
+    }
+    .banner h1{
+        margin: 0 0 20px;
+    }
+    .domain-box{
+        margin: 0 0 25px;
+    }
+    .banner p{
+        margin: 0 0 25px;
+    }
+    .outerbox{
+        padding-top: 70px;
+    }
+    .carousel-indicators {
+        bottom: 25px;
+    }
+    .small-box figure{
+        margin-bottom: 20px;
+    }
+    .small-box{
+        font-size: 16px;
+        width: 50%;
+        margin: 0 0 30px;
+    }
+/************** webbhotell **********/
+    .sub-outerbox{
+        padding-top: 75px;
+    }
+    .subbanner{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .subbanner h1{
+        margin: 0 0 15px;
+    }
+    .subbanner p{
+        margin: 0 0 25px;
+    }
+    .domain-banner .domain-box{
+        margin-bottom: 20px;
+    }
+    .domain-banner ul li{
+        font-size: 16px;
+    }
+    .video-holder{
+        height: 300px;
+    }
+    .video-holder img{
+        width: 100%;
+        height: 100%;
+    }
+    .hemsida-box2 .small-box{
+        width: 100%;
+        min-height: auto;
+    }
+    .provision-small-box{
+        margin: 0 auto 20px;
+    }
+    .provision-small-box:last-child{
+        margin: 0;
+    }
+    .slider-box{
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+    .colocation-text-box{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .colocation-text-box p br{
+        display: none;
+    }
+    .text-box-section h2 span{
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+    /*********** SSL PAGE ********/
+    .text-box-section p br{
+        display: none;
+    }
+    .text-box-section ul li{
+        margin: 0 0 12px;
+    }
+    .dedicated-inner-box label{
+        font-size: 20px;
+        line-height: 22px;
+        margin: 0 0 15px;
+    }
+    .aterfors-textbox .small-box{
+        margin-top: 30px;
+    }
+    .form-box p{
+        margin-bottom: 40px;
+    }
+    .small-text-box p br{
+        display: none;
+    }
+    .gsuit-small-box {
+        width: 80%;
+        float: none;
+        display: inline-block;
+        margin: 0 0 50px !important;
+        text-align: center;
+    }
+    .gsuit-small-box:last-child {
+        margin: 0 !important;
+    }
+    .microsoft-news-box .btn1{
+        display: inline-block;
+        margin-top: 25px;
+    }
+    .flock-image img{
+        width: 100%;
+    }
+    .digitala-tag{
+        width: 100px;
+        height: 100px;
+    }
+    .digitala-tag img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 667px) {
+    .plans-inner{
+        padding: 35px 15px;
+    }
+    .form-search .domain-field{
+        font-size: 14px;
+        width: 65% !important;
+    }
+    .domain-submit{
+        width: 35%;
+        font-size: 16px;
+    }
+
+    .text-box p span{
+        font-size: 20px;
+        line-height: 22px;
+        margin: 0 0 25px;
+    }
+    .nyhetsbrev-news-box a{
+        display: block;
+        margin-top: 5px;
+    }
+    .footer-green-box a{
+        display: block !important;
+        margin-top: 5px !important;
+    }
+    .digitala-tag {
+        position: RELATIVE;
+        left: auto;
+        right: auto;
+        margin: 0 auto;
+        top: 0;
+    }
+}
+@media screen and (max-width: 560px){
+    .price-box{
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0px;
+    }
+    .plans-inner ul li{
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0 0 8px;
+    }
+    .review-box{
+        width: 100%;
+        margin: 0 0 20px !important;
+    }
+    .review-box:last-child{
+        margin: 0 !important;
+    }
+    .content-box, .content-box2 {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    .domain-ext{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .domain-price{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .form-search .domain-field{
+        width: 100% !important;
+        border-radius: 6px;
+    }
+    .domain-submit{
+        width: 100%;
+        margin: 10px 0 0;
+        border-radius: 6px;
+    }
+    .plans-outer{
+        width: 100%;
+    }
+    .plans-inner h3{
+        margin: 0 0 15px;
+    }
+    .content-box h2{
+        margin: 0 0 20px;
+    }
+    .domain-section .domain-box{
+        margin: 0;
+    }
+    .small-box{
+        width: 100%;
+        font-size: 14px;
+    }
+    #demo{
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+    .sitebuilder-banner .green-transparent-btn a, .affiliate-banner .green-transparent-btn a, .redo-box .green-transparent-btn a{
+        min-width: 150px;
+        font-size: 15px;
+    }
+    .subbanner .btn2{
+        margin-left: 5px;
+    }
+    .colocation-box .team-box{
+        height: 150px;
+    }
+    .text-box-section{
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 375px){
+
+}

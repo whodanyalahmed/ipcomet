@@ -1,0 +1,269 @@
+/*
+ * jQuery UI Slider 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Slider#theming
+ */
+.ui-slider {
+	position: relative;
+	text-align: left;
+}
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 1.2em;
+	height: 1.2em;
+	cursor: default;
+}
+.ui-slider .ui-slider-range {
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	position: absolute;
+	background-position: 0 0;
+}
+.ui-slider-horizontal {
+	height: .8em;
+}
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.3em;
+	margin-left: -.6em;
+}
+.ui-slider-horizontal .ui-slider-range {
+	top: 0;
+	height: 100%;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+	left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+.ui-slider-vertical {
+	width: .8em;
+	height: 100px;
+}
+.ui-slider-vertical .ui-slider-handle {
+	left: -.3em;
+	margin-left: 0;
+	margin-bottom: -.6em;
+}
+.ui-slider-vertical .ui-slider-range {
+	left: 0;
+	width: 100%;
+}
+.ui-slider-vertical .ui-slider-range-min {
+	bottom: 0;
+}
+.ui-slider-vertical .ui-slider-range-max {
+	top: 0;
+}
+/**************PRICE SLIDER*************/
+.hosting_sliderbox {
+	float: left;
+	width: 100%;
+}
+.hosting_sliderbox label {
+	float: left;
+	width: 100%;
+	font-weight: 400;
+	font-size:16px;
+	line-height:20px;
+	color: #fff;
+	margin:0 0 24px;
+}
+.hosting_sliderbox p{
+	margin:0px !important;
+}
+#sale-slider {
+	-webkit-appearance: none;
+	height: 17px;
+	border-radius: 32px;
+	background: #00b67a;
+	outline: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	border: 2px solid #ededed;
+}
+#sale-slider .ui-slider-range {
+	background: #fff;
+	border-radius: 32px;
+	box-shadow:none;
+	border: none;
+}
+#sale-slider .ui-slider-handle {
+	outline: none;
+	width: 33px;
+	height: 33px;
+	margin: -6px 0 0 -10px;
+	background: #00b67a;
+	border-radius: 100%;
+	border: none;
+	box-shadow: none;
+}
+#sale-slider .ui-slider-handle:hover {
+	cursor: pointer;
+}
+.hosting_sliderbox .sales-label{
+	width: auto;
+	margin: 0;
+}
+.data_area {
+	display: inline-block;
+	width: 30px;
+	line-height: 20px;
+	position: absolute;
+	right: -60px;
+	top: 0;
+	color: #333;
+	font-size: 16px;
+}
+.caculate_btn {
+	color: #fff;
+	min-width: 210px;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 46px;
+	height: 46px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 6px;
+	font-weight: 400;
+	background: #00b67a;
+	border: none;
+	outline: none;
+	margin: 50px auto 0;
+	transition: all ease-in-out 0.6s;
+}
+.caculate_btn:hover{
+	background:#333;
+}
+
+.slider_btmsection {
+	float: left;
+	width: 100%;
+}
+.total_price {
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+	color: #00b67a;
+	font-size: 36px;
+	line-height: 20px;
+	font-weight: 500;
+	margin: 38px 0 0px;
+}
+.black-box-inner .note{
+	font-size: 14px;
+}
+.slider-box .form-control{
+	border: none;
+	outline: none;
+	padding: 0 26px;
+	font-size: 16px;
+	line-height: 49px;
+	height: 49px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	color: #acacac;
+	box-shadow:0 0 0 2px #ededed inset;
+}
+.slider-box .form-group{
+	margin: 0 0 35px;
+}
+.slider-box label{
+	color: #333;
+	font-weight: normal;
+	margin: 0 0 31px;
+}
+.slider-box h2{
+	margin: 0 0 40px;
+}
+.range-slider {
+	margin:0px 0 0 0%;
+}
+
+.range-slider {
+	width: 100%;
+	position: relative;
+}
+
+.range-slider__range::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 33px;
+	height: 33px;
+	border-radius: 50%;
+	background: #00b67a;
+	cursor: pointer;
+	transition: background 0.15s ease-in-out;
+}
+.range-slider__range::-webkit-slider-thumb:hover {
+	background: #00b67a;
+}
+.range-slider__range:active::-webkit-slider-thumb {
+	background: #00b67a;
+}
+.range-slider__range::-moz-range-thumb {
+	width: 20px;
+	height: 20px;
+	border: 0;
+	border-radius: 50%;
+	background: #00b67a;
+	cursor: pointer;
+	transition: background 0.15s ease-in-out;
+}
+.range-slider__range::-moz-range-thumb:hover {
+	background: #1abc9c;
+}
+.range-slider__range:active::-moz-range-thumb {
+	background: #1abc9c;
+}
+.range-slider__range:focus::-webkit-slider-thumb {
+	box-shadow: 0 0 0 3px #fff, 0 0 0 6px #1abc9c;
+}
+
+.range-slider__value {
+	display: inline-block;
+	width: 30px;
+	line-height: 20px;
+	position: absolute;
+	right: -60px;
+	top: 0;
+	color: #333;
+	font-size: 16px;
+
+}
+::-moz-range-track {
+	background: #d7dcdf;
+	border: 0;
+}
+
+input::-moz-focus-inner,
+input::-moz-focus-outer {
+	border: 0;
+}
+
+
+
+
+
+
+@media screen and (max-width: 991px){
+	.range-slider__value {
+		right: 0px;
+		top: -40px;
+	}
+}
+
+@media screen and (max-width: 667px){
+
+}
+
+@media screen and (max-width: 480px){
+}

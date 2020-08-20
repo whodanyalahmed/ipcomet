@@ -1,0 +1,54 @@
+/****************YELLOW BUTTON******************/
+
+.pink-btn a,.pink-btn button {
+	color:#ec6b6e;
+	padding:0px 27px;
+	display:block;
+	font-size: 16px;
+	line-height: 43px;
+	height: 43px;
+	text-decoration:none;
+	text-align:center;
+	border-radius: 32px;
+	transition: all ease-in-out 0.6s;
+	box-shadow:0 0 0 2px #40a1e9 inset;
+	border: none;
+	outline: none;
+}
+.pink-btn a:hover,.pink-btn button:hover {
+	background:#40a1e9;
+	color:#fff;
+	text-decoration:none;
+	box-shadow:0 0 0 2px #40a1e9 inset;
+}
+/****************YELLOW BUTTON******************/
+.green-transparent-btn a,.green-transparent-btn button {
+	color:#fff;
+	display:block;
+	font-size: 16px;
+	line-height: 46px;
+	height: 46px;
+	text-decoration:none;
+	text-align:center;
+	border-radius: 6px;
+	font-weight: 400;
+	background: #40a1e9;
+	transition: all ease-in-out 0.6s;
+	border: none;
+	outline: none;
+	padding: 0;
+}
+.green-transparent-btn a:hover,.green-transparent-btn button:hover {
+	background:#000;
+	color:#fff;
+	text-decoration:none;
+}
+
+@media screen and (max-width: 767px){
+	.yellow-btn a, .black-btn a,.yellow-btn button, .black-btn button {
+		padding: 15px 24px;
+		font-size: 16px;
+		line-height: 16px;
+	}
+
+}

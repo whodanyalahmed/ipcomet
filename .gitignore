@@ -1,8 +1,5 @@
-blog
-domains
-kb
-storage
-terms
-tutorials
-!js/main/tutorials
-ignore
+ignored folders
+public
+.firebaserc
+database.rules.json
+firebase.json

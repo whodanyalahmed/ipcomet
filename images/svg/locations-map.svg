@@ -209,7 +209,7 @@
 
     
     
-    <g id="Stockholm" class="location-tooltip active" transform="translate(50 200)">
+    <g id="Stockholm" class="location-tooltip" transform="translate(50 200)">
         <g class="ring-group">
             <ellipse class="ring" cx="675.32" cy="373.81" rx="6.25" ry="3.94" style="fill: none;stroke: #222;stroke-miterlimit: 10;stroke-opacity: 0.80;stroke-width: 1px"/>
         </g>
